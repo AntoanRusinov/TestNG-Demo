@@ -18,7 +18,6 @@ public class TestCharUtils {
 
 		int result = CharUtils.CharToASCII(character);
 		Assert.assertEquals(result, ascii);
-
 	}
 
 	@Test(dataProvider = "ValidDataProvider")
